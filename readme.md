@@ -10,11 +10,6 @@ Cada passagem é apresentada com profundidade, clareza e uma experiência intera
 Este projeto tem como objetivo tornar o estudo bíblico mais acessível, bonito e organizado.  
 Cada reflexão é dividida em fragmentos, com transições suaves e destaque para o texto bíblico completo na lateral, criando uma jornada leve e meditativa pela Palavra.
 
-Alguns temas já disponíveis:
-- Mateus 5:3 – Humildade de espírito  
-- Tiago 3:1–12 – O poder da língua  
-- Provérbios – Sabedoria e santificação
-
 ---
 
 ## 🎯 Objetivo
