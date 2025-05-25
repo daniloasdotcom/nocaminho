@@ -1,10 +1,6 @@
 .sesskey
-
-# Python cache
 __pycache__/
-
-# Ambiente virtual
 .venv/
-
-# Arquivos do macOS
 .DS_Store
+*.pyc
+*.env
