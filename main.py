@@ -6,7 +6,8 @@ from post.pv246 import prov24_6
 from post.tiago3 import tiago3  # ← NOVO
 from pages.todos_os_estudos import todos_os_estudos
 
-app, rt = fast_app(static_dir="static")  # Define o diretório de arquivos estáticos
+# Cria a aplicação e o roteador
+app, rt = fast_app(static_dir="static")
 
 # Configuração das rotas
 @rt('/')
@@ -33,5 +34,6 @@ def route_tiago3():
 def route_todos_estudos():
     return todos_os_estudos()
 
-# Servir a aplicação
-serve()
+# Só executa o servidor localmente
+if __name__ == "__main__":
+    serve()
