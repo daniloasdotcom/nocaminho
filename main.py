@@ -3,7 +3,8 @@ from pages.home import home
 from post.mateus5 import mateus5
 from post.prov423 import prov4_23
 from post.pv246 import prov24_6
-from post.tiago3 import tiago3  # ← NOVO
+from post.tiago3 import tiago3
+from post.salmos01 import salmos1
 from pages.todos_os_estudos import todos_os_estudos
 
 # Cria a aplicação e o roteador
@@ -26,14 +27,17 @@ def route_pv246():
 def route_prov4_23():
     return prov4_23()
 
-@rt('/tiago3')  # ← NOVA ROTA
+@rt('/tiago3')
 def route_tiago3():
     return tiago3()
+
+@rt('/salmos01')
+def route_salmos1():
+    return salmos1()
 
 @rt('/todos_os_estudos')
 def route_todos_estudos():
     return todos_os_estudos()
 
-# Só executa o servidor localmente
 if __name__ == "__main__":
     serve()

@@ -29,6 +29,14 @@ studies = [
         "excerpt": "A língua, embora pequena, se gaba de grandes coisas...",
         "path": "/tiago3",
         "theme": "Domínio próprio",
-        "featured": False
+        "featured": True
     },
+    {
+        "title": "Salmos 1 - O Caminho dos Justos e dos Ímpios",
+        "reference": "Salmos 1",
+        "excerpt": "Feliz é aquele que não segue o conselho dos perversos, não se detém no caminho dos pecadores, nem se junta à roda dos zombadores.",
+        "path": "/salmos01",
+        "theme": "Bem-aventurança dos Justos e o Caminho dos Ímpios",
+        "featured": False
+    }
 ]
